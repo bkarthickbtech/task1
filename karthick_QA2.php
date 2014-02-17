@@ -22,7 +22,7 @@ if(is_int($start_range) && is_int($end_range)) {
         }  elseif(($i % 5) == 0) {
             echo "Buzz ";
         } else {
-		     if(!((($lastRange) % 5 ) == 0) && ((($lastPreviouseRange) % 3 ) == 0)) {
+		     if(!(((($lastRange) % 5 ) == 0) && ((($lastPreviouseRange) % 3 ) == 0))) {
                echo $i . " ";
 				
             } 
